@@ -1,6 +1,6 @@
 const input = require("readline-sync");
 
-const nome = input.question("Digite seu nome: ");
+const nome = input.question("Digite o nome do aluno: ");
 var n1 =  Number (input.question("Digite nota 1: "));
 var n2 =  Number (input.question("Digite nota 2: "));
 var n3 =  Number (input.question("Digite nota 3: "));
