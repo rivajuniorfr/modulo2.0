@@ -1,3 +1,5 @@
+// Exercicio 1
+
 const input = require("readline-sync");
 
 const nome = input.question("Digite o nome do aluno: ");
@@ -21,7 +23,16 @@ if ( media <= 3.5 ){
     console.log( nome + ", sua media foi, " + media +  " Você está aprovado.")
 
 }
-   
+
+// Exercicio 2 e 3
+
+const frase = "A turma do backend do senac, é MASSA";
+const frase1 = "rivajunior1983".split('').reverse().join('');
+
+const tamanho = frase.length
+
+console.log (tamanho);
+console.log (frase1);
 
 
 
